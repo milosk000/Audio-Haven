@@ -24,6 +24,8 @@ nav ul {
     padding: 15px;
     border: rgba(226, 241, 255, 0.371) 2px ridge;
     margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
     transition: all 0.5s ease-in-out;
 }
 
@@ -298,3 +300,45 @@ footer {
 h2{
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
 }
+
+#shopIntro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#shopIntroText{
+    text-align: center;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.prodContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    margin-top: 0;
+  }
+  
+  .product p {
+    color: #000000;
+  }
+  
