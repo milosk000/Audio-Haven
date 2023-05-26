@@ -306,6 +306,7 @@ h2{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #shopIntroText{
@@ -317,6 +318,7 @@ h2{
 .prodContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .product {
